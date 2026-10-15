@@ -1,10 +1,10 @@
 /* Class 11 · Step 4: the basics */
 :root {
---text: #00008a;
---text-muted: #6b7280;
---accent: #2563eb;
---background: #bdbdbd;
---border: #e5e7eb;
+--text: #141414;
+--text-muted: #307473;
+--accent: #2dc2bd;
+--background: #f4fdaf;
+--border: #88a09e;
 }
 body {
 font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -23,3 +23,10 @@ border-bottom: 1px solid var(--border);
 padding-bottom: 0.5rem;
 }
 footer { margin-top: 4rem; color: var(--text-muted); font-size: 0.9rem; }
+/* Lab 11: Task 4: Links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:hover { border-bottom-color: var(--accent);}
