@@ -7,7 +7,7 @@
 --border: #88a09e;
 }
 body {
-font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
 color: var(--text);
 background: var(--background);
 line-height: 1.6;
@@ -15,14 +15,23 @@ max-width: 42rem;
 margin: 0 auto;
 padding: 3rem 1.5rem;
 }
-h1 { font-size: 2.5rem; margin-bottom: 0.25rem; }
+h1 { font-size: 3rem; margin-bottom: 0.25rem; line-height: 3; }
+ /*Class 12: Step 2: My own scale*/
 header p { color: var(--text-muted); font-size: 1.1rem; margin-top: 0; }
 h2 {
+font-size: 1.75rem;
+line-height: 1.2;
 margin-top: 2.5rem;
 border-bottom: 1px solid var(--border);
 padding-bottom: 0.5rem;
+margin-bottom: 1rem;
 }
-footer { margin-top: 4rem; color: var(--text-muted); font-size: 0.9rem; }
+
+p{
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+footer { margin-top: 4em; color: var(--text-muted); font-size: 0.9rem; }
 /* Lab 11: Task 4: Links */
 a {
     color: var(--accent);
@@ -30,3 +39,22 @@ a {
     border-bottom: 1px solid transparent;
 }
 a:hover { border-bottom-color: var(--accent);}
+
+.portrait{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+ul{
+    padding-left: 1.5rem;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
