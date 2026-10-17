@@ -1,60 +1,108 @@
 /* Class 11 · Step 4: the basics */
 :root {
---text: #141414;
---text-muted: #307473;
---accent: #2dc2bd;
---background: #f4fdaf;
---border: #88a09e;
-}
-body {
-font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
-color: var(--text);
-background: var(--background);
-line-height: 1.6;
-max-width: 42rem;
-margin: 0 auto;
-padding: 3rem 1.5rem;
-}
-h1 { font-size: 3rem; margin-bottom: 0.25rem; line-height: 3; }
- /*Class 12: Step 2: My own scale*/
-header p { color: var(--text-muted); font-size: 1.1rem; margin-top: 0; }
-h2 {
-font-size: 1.75rem;
-line-height: 1.2;
-margin-top: 2.5rem;
-border-bottom: 1px solid var(--border);
-padding-bottom: 0.5rem;
-margin-bottom: 1rem;
+    --text: #141414;
+    --text-muted: #307473;
+    --accent: #2dc2bd;
+    --background: #f4fdaf;
+    --border: #88a09e;
 }
 
-p{
+body {
+    font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text);
+    background: var(--background);
+    line-height: 1.6;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.25rem;
+    line-height: 3;
+}
+
+/*Class 12: Step 2: My own scale*/
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 0;
+    
+}
+
+/* Lab 12: Task 1: Header side by side */
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Lab 12: Task 4: Stacking the header when there isn't room */
+header{
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
     font-size: 1.05rem;
     margin-bottom: 1rem;
 }
-footer { margin-top: 4em; color: var(--text-muted); font-size: 0.9rem; }
+
+/* Lab 12: Task 3a: Footer work */
+footer{
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    margin-top: 4em;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+}
+
 /* Lab 11: Task 4: Links */
 a {
     color: var(--accent);
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
-a:hover { border-bottom-color: var(--accent);}
 
-.portrait{
+a:hover {
+    border-bottom-color: var(--accent);
+}
+
+.portrait {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-section{
+/* Class 12: Step 4: Spacing on purpose */
+section {
     margin-bottom: 3rem;
 }
 
-ul{
-    padding-left: 1.5rem;
+/* Lab 12: Task 2: A list without bullets */
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-li{
+li {
+    padding-left: 1rem;
     margin-bottom: 0.5rem;
+    border-left: 2px solid var(--accent)
 }
