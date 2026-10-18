@@ -44,10 +44,10 @@ header{
 }
 
 h2 {
-    font-size: 1.75rem;
-    line-height: 1.2;
+    font-size: 1.5rem;
+    line-height: 1.1;
     margin-top: 2.5rem;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1.5px solid var(--border);
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -60,16 +60,15 @@ p {
 /* Lab 12: Task 3a: Footer work */
 footer{
     border-top: 1px solid var(--border);
-    padding-top: 1.5rem;
+    padding-top: 1.0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-footer {
     margin-top: 4em;
     color: var(--text-muted);
     font-size: 0.9rem;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 /* Lab 11: Task 4: Links */
@@ -104,5 +103,5 @@ ul {
 li {
     padding-left: 1rem;
     margin-bottom: 0.5rem;
-    border-left: 2px solid var(--accent)
+    border-left: 3px solid var(--accent)
 }
