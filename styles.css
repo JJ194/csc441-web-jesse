@@ -28,18 +28,18 @@ header p {
     color: var(--text-muted);
     font-size: 1.1rem;
     margin-top: 0;
-    
+
 }
 
 /* Lab 12: Task 1: Header side by side */
-header{
+header {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 /* Lab 12: Task 4: Stacking the header when there isn't room */
-header{
+header {
     flex-wrap: wrap;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 /* Lab 12: Task 3a: Footer work */
-footer{
+footer {
     border-top: 1px solid var(--border);
     padding-top: 1.0rem;
     display: flex;
@@ -104,4 +104,42 @@ li {
     padding-left: 1rem;
     margin-bottom: 0.5rem;
     border-left: 3px solid var(--accent)
+}
+
+/* Class 13: Step 3: The nav bar */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom-color: var(--accent);
+}
+
+/* Lab 13: Task 1a: Which page am I on */
+nav a.current {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Lab 13: Task 4: Seperate the bar from the header */
+nav {
+    padding-bottom: 1.5rem;
+    border-bottom: .025px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+/* Lab 13: Task 5: A visible outline for tabbing */
+nav a:focus-visible {
+    outline: 1.5px solid var(--accent);
 }
