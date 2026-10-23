@@ -143,3 +143,25 @@ nav {
 nav a:focus-visible {
     outline: 1.5px solid var(--accent);
 }
+
+/* Class 14: Step 2: The cards go in a row */
+.cards {
+    display: flex;
+    gap: 1.5rem;
+    /* Class 14: Step 3: Stack by default */
+    flex-direction: column;
+}
+
+.card {
+    flex: 1;
+    padding: 1.5 rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+/* Class 14: Step 3: A row when there's room */
+@media (min-width: 40rem) {
+    .cards {
+        flex-direction: row;
+    }
+}
