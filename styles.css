@@ -69,6 +69,15 @@ footer {
     font-size: 0.9rem;
     flex-wrap: wrap;
     gap: 1rem;
+/* Lab 14: Task 4: The footer stacks on narrow screens */
+    flex-direction: column;
+}
+
+@media (min-width: 40rem) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /* Lab 11: Task 4: Links */
@@ -169,8 +178,18 @@ nav a:focus-visible {
 }
 
 /* Class 14: Step 3: A row when there's room */
-@media (min-width: 40rem) {
+@media (min-width: 45rem) {
     .cards {
         flex-direction: row;
+    }
+}
+
+/*Lab 14: Task 6: My own layout choices */
+@media (min-width: 64rem) {
+    body {
+        max-width: 80rem;
+    }
+    .cards {
+        gap: 2rem;
     }
 }
