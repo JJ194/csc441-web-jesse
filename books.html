@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Lab 15: Task 1: My third file -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -22,6 +24,7 @@
             <li><a href="index.html" class=>Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="books.html" class="current">Books & Movies</a></li>
+            <li><button id="theme-toggle" type="button">Dark</button></li>
         </ul>
     </nav>
 
@@ -31,7 +34,7 @@
         <!-- Lab 12: Task 1: Group the text so it stacks up beside the photo-->
         <img src="images/me.jpg" alt="Portrait of Jesse Jordan" class="portrait">
         <div>
-            <h1>Jesse Jordan</h1>
+            <h1>Books & Movies</h1>
             <p>Winter 2026 Reading and Movie Watch List</p>
         </div>
     </header>
@@ -54,12 +57,15 @@
             </section>
         </div>
     </main>
-    
+
     <!-- Lab 12: Task 3: More things in the footer -->
     <footer>
-        <p>Jesse Jordan; CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>©<span id="year"></span> Jesse Jordan</p>
         <!-- Lab 11: Task 3: A link to my page-->
         <a href="https://github.com/JJ194" target="_blank" rel="noopener">GitHub</a>
+        <!-- Lab 15: Task 5: Back to the top -->
+        <button id="backTop" type="button">Back to the top</button>
     </footer>
 
 </body>

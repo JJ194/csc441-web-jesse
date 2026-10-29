@@ -13,4 +13,9 @@ look nicer.
 2. I legit could not break it, even took it down to 240x240 and everything still maintainted gaps to click and only still only neeeded to scroll vertically. Nothing spilled horizontially or was missing. It was ugly and couldn't see much without scrolling, but it was there and readable. 
 3. Justify is like Word documents, and orients the horizontal axis contents on a line to center, left or right. Align moves the justified items up or down. 
 4. It works better on mobile devices, which are usually taller horizontially. Mobile first design choice. 
-
+## Week 10, Wednesday
+1. HTML are the underlying bones and muscles that make a website work, CSS is the artistic choices and behaviors applied to HTML, and JS is the central brain that runs it all and reacts to user inputs
+2. Defer lets the browser download scripts while running the HTML, without it the page would have to stop and wait and the rendering could be slow or corrupted.
+3. CSS is the central stop for styling, and dark mode is applied everywhere it is called. Without the variables and references we would have to code and overwrite the styling for every color.
+4. I tried the time for Task 5, and it sort of worked but wasn't displaying in the footer. It was actually displaying the time in the console when I inspected it, since I didn't realize it was defaulting to console.log. Wasn't really an error, it did what it was told to do but seemed like something was broken.
+5. How to make lists and sections look better. 

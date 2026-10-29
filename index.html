@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Class 15: Step 1: My third file -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -21,6 +23,8 @@
             <li><a href="index.html" class="current">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="books.html">Books & Movies</a></li>
+            <!-- Class 15: Step 3: The themeing button -->
+            <li><button id="theme-toggle" type="button">Dark</button></li>
         </ul>
     </nav>
 
@@ -45,10 +49,20 @@
         <section>
             <h2>What I've built</h2>
             <ul>
-                <li>A boardgame planning app in Kotlin and Jetpack Compose. A 5 dice game in Python. A traveling sales
-                    person problem solver
-                    in Java.
+                <li>
+                    <h3>TSP Solver</h3>
                 </li>
+                <p> A traveling sales person (TSP) problem solver in Java.</p>
+
+                <li>
+                    <h3>Boardgame Planner</h3>
+                </li>
+                <p>A boardgame planning app in Kotlin and Jetpack Compose.</p>
+
+                <li>
+                    <h3>Cosmic Wipeout</h3>
+                </li>
+                <p> A 5 dice game in Python.</p>
             </ul>
         </section>
 
@@ -65,9 +79,13 @@
 
     <!-- Lab 12: Task 3: More things in the footer -->
     <footer>
-        <p>Jesse Jordan; CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>©<span id="year"></span> Jesse Jordan</p>
+        <!-- Class 15: Step 2: The year, written by JS -->
         <!-- Lab 11: Task 3: A link to my page-->
         <a href="https://github.com/JJ194" target="_blank" rel="noopener">GitHub</a>
+        <!-- Lab 15: Task 5: Back to the top -->
+        <button id="backTop" type="button">Back to the top</button>
     </footer>
 
 </body>
