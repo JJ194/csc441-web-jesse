@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Class 13: Step 1: My second page -->
-    <title>About: Jesse Jordan</title>
+    <title>CS Projects</title>
     <!-- Class 12: Step 1: A typeface I chose-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Lab 15: Task 1: My third file -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -21,6 +23,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html" class="current">Projects</a></li>
             <li><a href="books.html">Books & Movies</a></li>
+            <li><button id="theme-toggle" type="button">Dark</button></li>
         </ul>
     </nav>
 
@@ -41,24 +44,29 @@
             <section class="card">
                 <h2>Cosmic Wipeout</h2>
                 <p>A push your luck game with 5 dice, made in Java. Combinations of symbols rolled on the dice determine
-                score and other effects,
-                and certain combinations result in a bust if the player keeps rolling; or they can stay and keep the
-                points. The hardest part was getting all the different combinations
-                programmed correctly and to react to each other as a player keeps rolling.</p>
+                    score and other effects,
+                    and certain combinations result in a bust if the player keeps rolling; or they can stay and keep the
+                    points. The hardest part was getting all the different combinations
+                    programmed correctly and to react to each other as a player keeps rolling.</p>
             </section>
             <section class="card">
                 <h2>Traveling Salesperson problem (TSP) solver</h2>
-                <p>A algorithm coded in Java that is used to solve the TSP, a problem based on finding the shortest and/or most efficient
-                route. It utilized the greedy Manhattan approach, which calculates distances on a horizontal and vertical grid and 
-                attempts to find the shortest path to the goal. It does this by continously jumping to the nearest unvisited location until the route is complete. The hardest part
-                was visulainzing the theory and translating it into a coordinates based code algorithm.
-            </p>
+                <p>A algorithm coded in Java that is used to solve the TSP, a problem based on finding the shortest
+                    and/or most efficient
+                    route. It utilized the greedy Manhattan approach, which calculates distances on a horizontal and
+                    vertical grid and
+                    attempts to find the shortest path to the goal. It does this by continously jumping to the nearest
+                    unvisited location until the route is complete. The hardest part
+                    was visulainzing the theory and translating it into a coordinates based code algorithm.
+                </p>
             </section>
             <section class="card">
                 <h2>Pong and beyond</h2>
-                <p>Using Visual Studio and coding in JS, re-created Pong, and then continually built upon the knowledge gained to make more 
-                    advanced games, backgrounds, and player input/score tracking. The hardest part was figuring out what was needed to make the games work right,
-                    since just about everything had to be hardcoded into exsistence and manually placed. 
+                <p>Using Visual Studio and coding in JS, re-created Pong, and then continually built upon the knowledge
+                    gained to make more
+                    advanced games, backgrounds, and player input/score tracking. The hardest part was figuring out what
+                    was needed to make the games work right,
+                    since just about everything had to be hardcoded into exsistence and manually placed.
                 </p>
             </section>
         </div>
@@ -66,9 +74,12 @@
 
     <!-- Lab 12: Task 3: More things in the footer -->
     <footer>
-        <p>Jesse Jordan; CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>CSC 441 - Fall 2026; it's the last class needed!</p>
+        <p>©<span id="year"></span> Jesse Jordan</p>
         <!-- Lab 11: Task 3: A link to my page-->
         <a href="https://github.com/JJ194" target="_blank" rel="noopener">GitHub</a>
+        <!-- Lab 15: Task 5: Back to the top -->
+        <button id="backTop" type="button">Back to the top</button>
     </footer>
 
 </body>

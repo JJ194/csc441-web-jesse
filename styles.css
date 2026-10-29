@@ -20,7 +20,7 @@ body {
 h1 {
     font-size: 3rem;
     margin-bottom: 0.25rem;
-    line-height: 3;
+    line-height: 1.1;
 }
 
 /*Class 12: Step 2: My own scale*/
@@ -28,7 +28,8 @@ header p {
     color: var(--text-muted);
     font-size: 1.1rem;
     margin-top: 0;
-
+    /* Lab 12: Task 4: Stacking the header when there isn't room */
+    flex-wrap: wrap;
 }
 
 /* Lab 12: Task 1: Header side by side */
@@ -36,11 +37,6 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-/* Lab 12: Task 4: Stacking the header when there isn't room */
-header {
-    flex-wrap: wrap;
 }
 
 h2 {
@@ -63,14 +59,15 @@ footer {
     padding-top: 1.0rem;
     display: flex;
     justify-content: space-between;
+    /* Lab 14: Task 4: The footer stacks on narrow screens */
+    flex-direction: column;
     align-items: center;
     margin-top: 4em;
     color: var(--text-muted);
     font-size: 0.9rem;
     flex-wrap: wrap;
     gap: 1rem;
-/* Lab 14: Task 4: The footer stacks on narrow screens */
-    flex-direction: column;
+
 }
 
 @media (min-width: 40rem) {
@@ -122,8 +119,8 @@ nav ul {
     display: flex;
     gap: 1.5rem;
     margin-bottom: 2rem;
-/* Lab 14: Task 1: The nav stacks on narrow screens */
-   flex-direction: column;
+    /* Lab 14: Task 1: The nav stacks on narrow screens */
+    flex-direction: column;
 }
 
 @media (min-width: 40rem) {
@@ -189,12 +186,13 @@ nav a:focus-visible {
     body {
         max-width: 80rem;
     }
+
     .cards {
         gap: 2rem;
     }
 }
 
-body.dark{
+body.dark {
     --text: white;
     --text-muted: silver;
     --accent: skyblue;
