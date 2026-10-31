@@ -19,3 +19,9 @@ look nicer.
 3. CSS is the central stop for styling, and dark mode is applied everywhere it is called. Without the variables and references we would have to code and overwrite the styling for every color.
 4. I tried the time for Task 5, and it sort of worked but wasn't displaying in the footer. It was actually displaying the time in the console when I inspected it, since I didn't realize it was defaulting to console.log. Wasn't really an error, it did what it was told to do but seemed like something was broken.
 5. How to make lists and sections look better. 
+## Week 10, Friday
+1. It stops the default behavior of an event in the browser, and in our case without it the page reloads and loses the data when it tries to send the data to a non-existent server.
+2. That happened because the other three pages don't have a form when the JS looked for a form, and null was sent back for those three pages. There wasn't a way to handle the null so an error occured. The IF asks first if there is a form present on a page before running the JS.
+3. I picked the remember a draft, since that is the most useful on of them all and one that enhances the customer experience the most. It is not fun losing a whole bunch of infor o paragraphs on a webesite that timesouts, closes or gets refereshed. Nobody likes starting from scratch, and if they are filling out a complaint or customer service request they are proably already annoyed.
+4. Once again I couldn't find anything wrong using the checklist. I only noticed that the first sentance in my footer wasn't wrapping correctly, and an align items to center fixed that.
+5. It dosen't have a connection to the outside world and has nothing telling it where to send the information. Pointing it to a domain and server that is monitored will make the website functional. 
