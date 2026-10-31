@@ -1,3 +1,8 @@
+/* Class 16: Step 3: Padding counts inside width, not on top of it */
+* {
+    box-sizing: border-box;
+}
+
 /* Class 11 · Step 4: the basics */
 :root {
     --text: #141414;
@@ -5,6 +10,7 @@
     --accent: #2dc2bd;
     --background: #f4fdaf;
     --border: #88a09e;
+    --error: crimson;
 }
 
 body {
@@ -67,6 +73,7 @@ footer {
     font-size: 0.9rem;
     flex-wrap: wrap;
     gap: 1rem;
+    text-align: center;
 
 }
 
@@ -198,4 +205,48 @@ body.dark {
     --accent: skyblue;
     --background: black;
     --border: dimgray;
+    --error: lightsalmon;
+}
+
+/* Class 16: Step 3: The form */
+form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+form input, form textarea {
+    font: inherit;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--text-muted);
+    scroll-padding-block: 6px;
+    background: #F8F6F0;
+    color: var(var(--text));
+}
+
+form input:focus,form textarea:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+}
+
+form button {
+    font: inherit;
+    font-weight: 700;
+    color: var(--background);
+    background: var(--accent);
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+#form-status {
+    font-weight: 500;
+    color: var(--accent);
+}
+
+/* Lab 16: Task 1a: The error state */
+#form-status.error {
+    color: var(--error);
 }
