@@ -25,3 +25,5 @@ look nicer.
 3. I picked the remember a draft, since that is the most useful on of them all and one that enhances the customer experience the most. It is not fun losing a whole bunch of infor o paragraphs on a webesite that timesouts, closes or gets refereshed. Nobody likes starting from scratch, and if they are filling out a complaint or customer service request they are proably already annoyed.
 4. Once again I couldn't find anything wrong using the checklist. I only noticed that the first sentance in my footer wasn't wrapping correctly, and an align items to center fixed that.
 5. It dosen't have a connection to the outside world and has nothing telling it where to send the information. Pointing it to a domain and server that is monitored will make the website functional. 
+## Week 11, Wednesday
+Live site: https://jessejordan.netlify.app/
