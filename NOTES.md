@@ -27,3 +27,7 @@ look nicer.
 5. It dosen't have a connection to the outside world and has nothing telling it where to send the information. Pointing it to a domain and server that is monitored will make the website functional. 
 ## Week 11, Wednesday
 Live site: https://jessejordan.netlify.app/
+1. Git hub tracks and stores the code repositores/branches/changes, and netlify is the connection to github repositories and deploys them to the world wide web. It also manages backend server stuff so the developer dosen't have to.
+2. It is on release, the one the world sees. Development is still in development.
+3. A secure connection is established between the server and website.
+4. Anything in the ignore list. Keys, passwords, trade secrets, PII, etc. shouldn't be on there.
