@@ -250,3 +250,8 @@ form button {
 #form-status.error {
     color: var(--error);
 }
+
+/* Class 18: STep 2: The hidden honeypot */
+.hidden-field {
+    display: none;
+}
