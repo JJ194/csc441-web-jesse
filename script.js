@@ -67,9 +67,10 @@ if (contactForm) {
             return;
         }
 
+
         formStatus.classList.remove("error");
-        formStatus.textContent = "Thank you " + name + ", your message is ready to send! Somebody will be in touch with you soon.";
-        contactForm.reset();
+        formStatus.textContent = "Thank you " + name + ", your message is sent! Somebody will be in touch with you soon.";
+        contactForm.submit();
     });
     // Lab 16: Task 2: Clear the error when it's fixed
     contactForm.addEventListener("input", function () {
