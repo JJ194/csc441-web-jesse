@@ -31,3 +31,10 @@ Live site: https://jessejordan.netlify.app/
 2. It is on release, the one the world sees. Development is still in development.
 3. A secure connection is established between the server and website.
 4. Anything in the ignore list. Keys, passwords, trade secrets, PII, etc. shouldn't be on there.
+## Week 11, Friday
+1. It's a honeypot field, it is better since the users never see or interact with it, but the bots fill it out since they are programmed to fill everything out it can. 
+2. Deploy Preview is a way to see what a live site would like like before it goes live and to the public. It's good to catch errors etc. before publishing it.
+3. I found a header on the homepage that was too big, and made it have to scroll left and right. Changing it to a paragraph was better. Everything else on the checklist worked as advertised
+4. branch on laptop->github->PR->merge to devlopment->netlify->published on release branch
+5. The DNS reslover recgonizes both the cname and a names
+6. How to get it ranked higher on internet searches. Fleshing out and making the whole thing look better. 
