@@ -1,26 +1,65 @@
 [
   {
     "id": 1,
-    "title": "Photography",
-    "description": "I like taking photos outdoor",
-    "category": "Creative",
+    "title": "Little Blue Penguin",
+    "description": "Found in ANZ and is the worlds smallest penguin, with very distinct blue plumage.  ",
+    "category": "Birds",
     "image_url": null,
     "create_at": "2026-11-11T22:45:47.173906+00:00"
   },
   {
     "id": 2,
-    "title": "Reading",
-    "description": "I enjoy science fiction and mysteries.",
-    "category": "Learning",
+    "title": "American Crow",
+    "description": "Every fall while migrating through CNY thousands of crows roost in the trees outside my apartment.",
+    "category": "Birds",
     "image_url": null,
     "create_at": "2026-11-11T22:45:47.173906+00:00"
   },
   {
     "id": 3,
-    "title": "Hiking",
-    "description": "I explore local trails on weekends.",
-    "category": "Outdoors",
+    "title": "Albatross",
+    "description": "An omen of good luck for lost sailors and an great song by Corrosion of Conformity.",
+    "category": "Birds",
     "image_url": null,
     "create_at": "2026-11-11T22:45:47.173906+00:00"
+  },
+  {
+    "id": 4,
+    "title": "Firebird",
+    "description": "A bright red, orange and yellow magical bird that can bring great fortune or misfortune; also a rad muscle car.",
+    "category": "Birds",
+    "image_url": null,
+    "create_at": "2026-11-12T22:00:43.521846+00:00"
+  },
+  {
+    "id": 5,
+    "title": "Roc",
+    "description": "A giant legendary bird with immense strength, enough to carry off elephants.",
+    "category": "Birds",
+    "image_url": null,
+    "create_at": "2026-11-12T22:00:43.521846+00:00"
+  },
+
+
+
+  {
+    "title": "Little Blue Penguin",
+    "category": "Birds"
+  },
+  {
+    "title": "American Crow",
+    "category": "Birds"
+  },
+  {
+    "title": "Albatross",
+    "category": "Birds"
+  },
+  {
+    "title": "Firebird",
+    "category": "Birds"
+  },
+  {
+    "title": "Roc",
+    "category": "Birds"
   }
 ]

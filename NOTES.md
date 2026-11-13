@@ -38,3 +38,5 @@ Live site: https://jessejordan.netlify.app/
 4. branch on laptop->github->PR->merge to devlopment->netlify->published on release branch
 5. The DNS reslover recgonizes both the cname and a names
 6. How to get it ranked higher on internet searches. Fleshing out and making the whole thing look better. 
+## Week 12, Wednesday
+1. 
