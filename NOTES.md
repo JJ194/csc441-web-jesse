@@ -39,4 +39,9 @@ Live site: https://jessejordan.netlify.app/
 5. The DNS reslover recgonizes both the cname and a names
 6. How to get it ranked higher on internet searches. Fleshing out and making the whole thing look better. 
 ## Week 12, Wednesday
-1. 
+1. Columns of attributes, rows that are records, cells, primary and foreign keys. 
+2. A table is where the data is stored until requested by, and the API endpoint is where the requested data 
+is delivered to.
+3. GET is a request for the data from the server without modifying it. It is delivered in JSON format.
+4. Publishable keys can be used by public servers and websites to request data from the table/server without modifying it, as long as row security is enabled. Secret keys give full admin access and power to change, delete, etc and should never be public.
+5. Select* requests everything; requesting just category and title only returns those values.
