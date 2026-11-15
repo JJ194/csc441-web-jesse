@@ -38,3 +38,16 @@ Live site: https://jessejordan.netlify.app/
 4. branch on laptop->github->PR->merge to devlopment->netlify->published on release branch
 5. The DNS reslover recgonizes both the cname and a names
 6. How to get it ranked higher on internet searches. Fleshing out and making the whole thing look better. 
+## Week 12, Wednesday
+1. Columns of attributes, rows that are records, cells, primary and foreign keys. 
+2. A table is where the data is stored until requested by, and the API endpoint is where the requested data 
+is delivered to.
+3. GET is a request for the data from the server without modifying it. It is delivered in JSON format.
+4. Publishable keys can be used by public servers and websites to request data from the table/server without modifying it, as long as row security is enabled. Secret keys give full admin access and power to change, delete, etc and should never be public.
+5. Select* requests everything; requesting just category and title only returns those values.
+## Week 12, Friday
+1. Fetch sends the request to the database and response is the requested data delivered in JSON format.
+2. textcontent is safer since the browser sees it as text instead of executable code.
+3. Zero rows matched the requested data and returns an empty list instead of an error.
+4. It gave the generic Chrome not connected to network message. On reconnecting it loaded up where it left off and the site worked like it should.
+5. The loop we made creates the document using createelement in JS and gets the items from supabase with the fetch url. Also changing the images on the card on supabase and refreshing returns the new image without changing any code.
